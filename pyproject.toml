@@ -1,3 +1,28 @@
+[build-system]
+build-backend = "cmeel"
+requires = [
+  "cmeel[build]",
+  "example-robot-data[build]"
+]
+
+[project]
+dependencies = [
+  "example-robot-data"
+]
+description = "Wrappers for Romeo robot in HPP"
+license = "BSD-2-Clause"
+name = "hpp-romeo"
+requires-python = ">= 3.10"
+version = "9.0.0"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/hpp-romeo"
+repository = "https://github.com/cmake-wheel/hpp-romeo.git"
+upstream = "https://github.com/humanoid-path-planner/hpp-romeo"
+
+[tool.cmeel]
+has-binaries = false
+
 [tool.ruff]
 extend-exclude = ["cmake"]
 
