@@ -23,9 +23,6 @@ upstream = "https://github.com/humanoid-path-planner/hpp-romeo"
 [tool.cmeel]
 has-binaries = false
 
-[tool.ruff]
-extend-exclude = ["cmake"]
-
 [tool.ruff.lint]
 extend-ignore = ["RUF012"]
 extend-select = ["I", "NPY", "RUF", "UP", "W"]
