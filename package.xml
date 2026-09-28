@@ -7,7 +7,7 @@
   <maintainer email='guilhem.saurel@laas.fr'>Guilhem Saurel</maintainer>
   <license>BSD-2-Clause</license>
 
-  <depend>example_robot_data</depend>
+  <depend>example_robot_descriptions</depend>
 
   <buildtool_depend>cmake</buildtool_depend>
   <build_depend>jrl_cmakemodules</build_depend>
